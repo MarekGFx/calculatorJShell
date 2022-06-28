@@ -1,33 +1,8 @@
-*.jpg
-*.png
-*.txt
-*.fxbuild
-*.class
-*.css
-*.lst
-*.log
-*.xml
-*.ctxt
-*.fxml
-.mtj.tmp/
-*.lst
-.target/
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-*.lst
-
-hs_err_pid*
-
+### Eclipse ###
 .metadata
 bin/
 tmp/
 *.tmp
-*.class
 *.bak
 *.swp
 *~.nib
@@ -36,39 +11,47 @@ local.properties
 .loadpath
 .recommenders
 
-.idea/
-
-
+# External tool builders
 .externalToolBuilders/
 
+# Locally stored "Eclipse launch configurations"
 *.launch
 
-.project
-.classpath
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
 .cproject
 
+# CDT- autotools
 .autotools
 
+# Java annotation processor (APT)
 .factorypath
 
+# PDT-specific (PHP Development Tools)
 .buildpath
 
-.target/
+# sbteclipse plugin
+.target
 
+# Tern plugin
 .tern-project
 
-
+# TeXlipse plugin
 .texlipse
 
-
+# STS (Spring Tool Suite)
 .springBeans
 
+# Code Recommenders
 .recommenders/
 
-
+# Annotation Processing
 .apt_generated/
 .apt_generated_test/
 
+# Scala IDE specific (Scala & Java development for Eclipse)
 .cache-main
 .scala_dependencies
 .worksheet
@@ -80,3 +63,5 @@ local.properties
 ### Eclipse Patch ###
 # Spring Boot Tooling
 .sts4-cache/
+
+# End of https://www.toptal.com/develope
